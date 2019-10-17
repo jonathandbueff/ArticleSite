@@ -1,0 +1,80 @@
+.header{
+    position: sticky;
+    text-align: center;
+    color: #24292e; 
+}
+.ulnav {
+    list-style-type: none;
+    background-color: #24292e;
+    position: sticky;
+    padding: 15px;
+    min-width: 690px;
+}
+.linav {
+    display: inline;
+    color: hsla(0,0%,100%,.7);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.logincom{
+    color: #24292e; 
+    text-decoration: none;
+}
+.page_title{
+    font-size: 20px;
+}
+.rating{
+    float:left; 
+    font-size:18px; 
+    margin-right: 25px;
+    background-image: linear-gradient(105deg, rgb(206, 218, 176) 39%, rgb(255, 255, 255) 96%);
+    background-size: 80px 7px;
+}
+
+button.title {
+    background-color:  #e1e4e8;
+    border: none;
+    min-width: 100%;
+    color: #1d1e22;
+    /* padding: 15px ; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+  }
+
+
+.login{
+    color: hsla(0,0%,100%,.7);
+    float: right;
+    padding-right: 2%;
+    text-decoration: none;
+}
+
+body {
+    background-color:#e1e4e8;
+}
+
+a{
+    font-size: 18px;
+}
+img{
+    position: absolute;
+    left: 0px;
+    top: -8px;
+    display: inline;
+    max-width: 100px;
+    z-index:-1;
+}
+
+.loginfields{
+    margin:auto;
+    width: 50%;
+    background-color: rgb(199, 199, 174);
+    text-align: center;
+}
+
